@@ -12,5 +12,5 @@ jobs:
         run: |
           node -v
           npm -v
-      - name: failure
-        run: blah
+      - name: test pass
+        run: echo "Yay"
